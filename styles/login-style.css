@@ -9,7 +9,9 @@ html {
     background-color: black;
 }
 body {
-    background-image: url(/resources/background\(2\).jpg) no-repeat center;
+    background-image: url(/resources/background\(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: 1500px;
     height: 100vh;
 }
