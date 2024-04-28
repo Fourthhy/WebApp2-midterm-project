@@ -77,7 +77,7 @@ load();
 function backLogin() {
     document.getElementById("login").addEventListener("click", (e)=> {
         setTimeout(()=> {
-            window.location.href = "login.html"
+            window.location.href = "index.html"
         }, 500)
         alert("Returning to Login");
     });
