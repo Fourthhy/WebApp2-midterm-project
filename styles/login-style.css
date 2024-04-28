@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url(/resources/background\(2\).jpg) no-repeat center;
+    background: url(/resources/background\(2\).jpg) no-repeat cover center;
     background-size: 1700px;
 }
 
