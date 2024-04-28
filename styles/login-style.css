@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/resources/background\(2\).jpg) no-repeat center;
+    background-size: 1500px;
+}
+
+.LoginContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.FormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid white;
+    border-radius: 6px;
+    padding: 10px;
+
+    width: 300px;
+    height: 250px;
+
+    margin-top: 25vh;
+    
+}
+
+#FormContainer {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.formGrid div{
+    width: 200px;
+    /* border: solid 1px white; */
+}
+
+.formGrid {
+    display: grid;  
+    grid-template-rows: 60px 55px 55px 30px;
+    gap: 5px;
+}   
+
+.inputLabel {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.inputText {
+    display: grid;
+    grid-row: 2/3;
+}
+
+.username {
+    height: 30px;
+    display: flex;
+    align-self: flex-end;
+    padding-left: 5px;
+    font-family: 'Asul', 'serif';
+}
+
+.password {
+    height: 30px;
+    display: flex;
+    align-self: flex-start;
+    padding-left: 5px;
+    font-family: 'Asul', 'serif';
+}
+.inputPassword {
+    display: grid;
+    grid-row: 3/4;
+}
+
+.FormButton {
+    font-family: 'Asul', 'serif';
+    background-color: rgb(9,12,38);
+    display: inline-block;
+
+    position: relative;
+    overflow: hidden;
+    color: white
+}
+
+.FormButton:after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -50px;
+
+    width: 10%;
+    transform: skew(-20deg);
+    opacity: 0.5;
+    transition: 0.5s all ease-in;
+}
+
+.FormButton:hover::after{
+    left: 120%;
+}
+.formButton {
+    display: grid;
+    grid-row: 4/5;
+}

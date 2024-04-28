@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap"); /* 'Asul', 'serif' */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap"); /* "Anek Devanagari", "sans-serif"; */
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2,37,38);
+}
+
+.navigationTab, .navigationSelectors {
+    display: flex;
+}
+
+.road, .navigationSelectors{
+    color: white;
+}
+
+.road {
+    margin-top: 8px;
+}
+
+.navigationSelectors {
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 6px;
+}   
+
+.text-Images, .text-Posts, .freedomWall {
+    border: 2px solid white;
+    padding: 4px 50px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Asul', 'serif';
+}
+
+.freedomWall {
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
+
+.text-Posts, .freedomWall {
+    margin-top: 2px;
+    border: none;
+}
+
+.text-Posts:hover {
+    cursor: pointer;
+}
+
+.anchorPosts, .anchorPosts:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.selected-right {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.selected-left {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.pathFinderIcon {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.Information {
+    color: white;
+    font-family: 'Asul', 'serif';
+    list-style: none;
+}
+
+.informationDetails {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/*Grid*/
+
+#imagesContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 23vw);
+    gap: 2vw;
+}
+
+.imagesContainer li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagesContainer {
+    margin-top: 50px; 
+}
+
+.containerDesign {
+    border: 1px solid white;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 5px;
+    width: 250px;
+}
+
+.ImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.mainImage {
+    height: 150px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.detailsContainer {
+    color: white;
+    font-family: 'Asul', 'serif';
+    text-align: center;
+    font-weight: 400;
+    font-family: "Anek Devanagari", "sans-serif";
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+/* Pop-up */
+
+.MainFloatingContainer {
+    display: none;
+}
+
+.FloatingContainerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FloatingContainerGrid {
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255, 0.15);
+}
+
+.PopupCloseButton {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6px;
+    margin: 5px;
+}
+
+.PDetails {
+    padding-left: 10px;
+    font-family: "Anek Devanagari", "sans-serif";
+    font-size: 0.8rem;
+}
+
+.fullTitle {
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.popupImage {
+    height: 350px;
+    width:  350px;
+}
+
+.PopupButton {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 2px 4px 0px 4px;
+    font-family: "Anek Devanagari", "sans-serif";
+    border-radius: 4px;
+}

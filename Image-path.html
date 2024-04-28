@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image Index</title>
+    <link rel="stylesheet" href="/styles/Image-style.css">
+</head>
+<body>
+    <nav>
+        <ul class="navigationTab">
+            <li>
+                <div class="pathFinderIcon">
+                    <i class="fa-solid fa-bridge-water road" id="login"></i>
+                </div>
+            </li>
+            <li>
+                <div class="navigationSelectors">
+                    <div class="selected-Images">
+                        <button class="text-Images">Images</button>
+                    </div>
+                    <div class="selected-Posts">
+                        <button class="text-Posts"><a href="posts-path.html" class="anchorPosts">Posts</a></button>
+                    </div>
+                    <div class="BSIS-ACT-WALL"><p class="freedomWall" id="freedomWall"><a href="freedomWall.html" class="anchorPosts">BSIS & ACT WALL</a></p></div>  
+                </div>
+            </li>
+            <li class="informationDetails">
+                <p class="Information"> Click to View Details </p>
+            </li>
+        </ul>
+    </nav>
+        <div class="MainFloatingContainer" id="MainFloatingContainer">
+            <div class="FloatingContainerFlex">
+                <div class="FloatingContainerGrid">
+                    <div class="PopupCloseButton">
+                        <button id="PopupButton" class="PopupButton">close</button>
+                    </div>
+                    <div class="PopupImage">
+                        <img id="PopupImage" class="popupImage">
+                    </div>
+                    <div class="PopupDetails">
+                        <div style="color: white" class="PDetails fullTitle" id="fullTitle"></div>
+                        <div style="color: white" class="PDetails" id="AlbumID"></div>
+                        <div style="color: white" class="PDetails" id="PhotoID"></div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+            <ul id="imagesContainer" class="imagesContainer">
+
+            </ul>
+    
+    <script src="https://kit.fontawesome.com/265e6b834b.js" crossorigin="anonymous"></script>
+    <script src="/scripts/Image-path.js"></script>
+</body>
+</html>

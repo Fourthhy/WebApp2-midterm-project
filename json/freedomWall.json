@@ -1,0 +1,56 @@
+[
+    {
+        "userName":     "@mewmew_nyan",
+        "userImage":    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkshh0IMgSA8yw_1JFALVsXFojVdR88C05Fw&usqp=CAU",
+        "userMessage":  "BSIS batch 2022 - 2026",
+        "id": 1
+    },
+    {
+        "userName":     "@WesleyM",
+        "userImage":    "/resources/Alicia.png",
+        "userMessage":  "Isa akong Clown",
+        "id": 2
+    },
+    {
+        "userName":    "@Louie_Tubat",
+        "userImage":    "/resources/Louie.png",
+        "userMessage":  "GAWA 20:24 (ADB) \n Datapuwa't hindi ko minamahal ang aking buhay na waring sa akin ay mahalaga, maganap ko lamang ang aking katungkulan, at ang ministeriong tinanggap ko sa Panginoong Jesus, na magpatotoo ng evangelio ng biyaya ng Dios.",
+        "id": 3
+    },
+    {
+        "userName":     "@Justine_Marco",
+        "userImage":    "/resources/Justine.png",
+        "userMessage":  "If akala mo masakit magmahal, mas masakit pag sinapak ka sa mukha",
+        "id": 4
+    },
+    {
+        "userName":     "@Astrid_Borja",
+        "userImage":    "/resources/Astrid.png",
+        "userMessage":  "gusto ko lang naman gumraduate pero hindi na nakaka-gwenchana ang life /*umiyak silently",
+        "id": 5
+    },
+    {
+        "userName":     "@Elle_Degula",
+        "userImage":    "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+        "userMessage":  "people who judge don't matter, people who matter don't judge",
+        "id": 6
+    },
+    {
+        "userName":     "@Archivist_4th",
+        "userImage":    "https://i.pinimg.com/236x/27/cb/d6/27cbd60081ae803cfb2bc876a279bcfa.jpg",
+        "userMessage":  "You make room, adjustments, and making all the efforts to take care of whom you love - Barbie(11:11)",
+        "id": 7
+    },
+    {
+        "userName":     "@jinrows_",
+        "userImage":    "/resources/Jean.png",
+        "userMessage":  "Remember to always appreciate yourself, because nobody knows what it takes to be you.",
+        "id": 8
+    },
+    {
+        "userName":     "Sample",
+        "userImage":    "https://i.pinimg.com/236x/5a/64/67/5a64674ad894bb432d1186ba813632c4.jpg",
+        "userMessage":  "sample",
+        "id": 9
+    }
+]

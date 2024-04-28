@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap"); /* 'Asul', 'serif' */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap"); /* "Anek Devanagari", "sans-serif"; */
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2,33,54);
+}
+
+.navigationTab, .navigationSelectors {
+    display: flex;
+}
+
+.road, .navigationSelectors{
+    color: white;
+}
+
+.road {
+    margin-top: 8px;
+}
+
+.navigationSelectors {
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 6px;
+}   
+
+.text-Images, .text-Posts, .freedomWall {
+    border: 2px solid white;
+    padding: 4px 50px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Asul', 'serif';
+}
+
+.freedomWall {
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
+
+.text-Images, .freedomWall {
+    margin-top: 2px;
+    border: none;
+    color: white;
+}
+
+.text-Posts:hover {
+    cursor: pointer;
+}
+
+.anchorPosts, .anchorPosts:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.pathFinderIcon {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.Information {
+    color: white;
+    font-family: 'Asul', 'serif';
+    list-style: none;
+}
+
+.informationDetails {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/* Posts Logs */
+
+.PostsList {
+    display: grid;
+    grid-template-columns: repeat(2, 45vw);
+    justify-content: center;
+    grid-auto-flow: unset;
+    font-size: 0.6rem;
+}
+.userInfo {
+    border: 1px solid white;
+    margin: 5px;
+    background-color: rgba(255,255,255,0.2);
+    width: 500px;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+.designContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.MainTitle {
+    color: white;
+    font-family: 'Asul', 'serif';
+    text-align: center;
+    padding: 10px;
+}
+
+.userPost {
+    color: white;
+    font-family: "Anek Devanagari", "sans-serif";
+    margin-right: 13px;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.Profile-Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.userName {
+    margin-top: 3px;
+    color: whitesmoke;
+    font-family: 'Asul', 'Serif';
+    
+}
+.picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.userImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-Picture {
+    margin: 8px;
+}
+
+.PostsList li {
+    list-style: none;
+}
+
+.designContainer:hover {
+    cursor: pointer;
+}
+
