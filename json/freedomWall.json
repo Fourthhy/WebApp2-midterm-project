@@ -64,5 +64,11 @@
         "userImage":    "/resources/Aerrol.png",
         "userMessage":  "If one day i make it, Lord it was you, not me.",
         "id": 11
+    },
+    {
+        "userName":     "@shija",
+        "userImage":    "/resources/Oli2.png",
+        "userMessage":  "galing mo talaga Miguel kaya idol kita e.",
+        "id": 12
     }
 ]
