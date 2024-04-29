@@ -52,5 +52,11 @@
         "userImage":    "https://i.pinimg.com/236x/5a/64/67/5a64674ad894bb432d1186ba813632c4.jpg",
         "userMessage":  "sample",
         "id": 9
+    },
+    {
+        "userName":     "@olioil",
+        "userImage":    "/resources/Oli.png",
+        "userMessage":  "i miss u sana tapos na ghosting phase mo ",
+        "id": 10
     }
 ]
