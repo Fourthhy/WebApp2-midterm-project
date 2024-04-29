@@ -58,5 +58,11 @@
         "userImage":    "/resources/Oli.png",
         "userMessage":  "i miss u sana matapos na ghosting phase mo ",
         "id": 10
+    },
+    {
+        "userName":     "@Kyle_Borrel",
+        "userImage":    "/resources/Aerrol.png",
+        "userMessage":  "If one day i make it, Lord it was you, not me.",
+        "id": 11
     }
 ]
