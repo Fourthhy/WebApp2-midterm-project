@@ -19,6 +19,10 @@ body {
     color: white;
 }
 
+.navigationTab li {
+    list-style: none;
+}
+
 .road {
     margin-top: 8px;
 }
