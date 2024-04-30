@@ -70,5 +70,17 @@
         "userImage":    "/resources/Oli2.png",
         "userMessage":  "galing mo talaga Miguel kaya idol kita e.",
         "id": 12
+    },
+    {
+        "userName":     "@lolens",
+        "userImage":    "/resources/Lorenz.png",
+        "userMessage":  "Do those things that will make you happy, but also consider that the things you do is in the accordance of a proper moral person.",
+        "id": 13
+    },
+    {
+        "userName":     "@cnvls",
+        "userImage":    "/resources/CE.png",
+        "userMessage":  "I have a memory of a goldfish :DD",
+        "id": 12
     }
 ]
