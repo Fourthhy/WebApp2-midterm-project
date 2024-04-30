@@ -152,3 +152,24 @@ body {
     cursor: pointer;
 }
 
+.userInfo {
+    position: relative;
+}
+
+.userInfo::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, rgb(10, 178, 171), rgb(22,13,178));
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.userInfo:hover::before {
+    opacity: 1;
+}
