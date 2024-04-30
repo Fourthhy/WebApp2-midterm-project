@@ -15,6 +15,10 @@ body {
     display: flex;
 }
 
+.navigationTab li {
+    list-style: none;
+}
+
 .road, .navigationSelectors{
     color: white;
 }
