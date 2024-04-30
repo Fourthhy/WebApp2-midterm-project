@@ -184,6 +184,10 @@ body {
     border-radius: 4px;
 }
 
+.containerDesign {
+    position: relative;
+}
+
 .containerDesign::before {
     content: "";
     position: absolute;
