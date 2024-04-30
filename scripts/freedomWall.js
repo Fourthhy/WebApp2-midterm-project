@@ -8,23 +8,11 @@ function backLogin() {
 }
 backLogin();
 
-function post() {
-    fetch("/json/freedomWall.json").then((posts)=> {
-        
-    
-    for (let i = 0; i < postCount; i++) {
-        let imageHolder = document.getElementById("userImage" + i);
-        console.log(posts[i].userName);
-        // imageHolder.src = posts[i].userImage;
-    }
-    }).catch(err => console.log(err));
-}
-
 async function fetchJSON() {
     const response  = (await fetch('/json/freedomWall.json'));
     const data = await response.json();
     let Str = ``;
-        let postCount = 40;
+        let postCount = data.length;
     for(let i = 0; i < postCount; i++){
         Str += 
         `<li>
