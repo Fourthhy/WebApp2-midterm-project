@@ -109,6 +109,28 @@ body {
     width: 250px;
 }
 
+.containerDesign {
+    position: relative;
+}
+
+.containerDesign::before {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, rgb(20, 178, 49), rgb(165, 178, 12));
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.containerDesign:hover::before {
+    opacity: 1;
+}
+
+
 .ImageContainer {
     display: flex;
     justify-content: center;
@@ -184,23 +206,3 @@ body {
     border-radius: 4px;
 }
 
-.containerDesign {
-    position: relative;
-}
-
-.containerDesign::before {
-    content: "";
-    position: absolute;
-    background-image: linear-gradient(to right, rgb(20, 178, 49), rgb(165, 178, 12));
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.containerDesign:hover::before {
-    opacity: 1;
-}
